@@ -58,15 +58,13 @@ Data Attribute Definitions
 
 Here is the image of the pipeline
 
-<img width="287" alt="image" src="Images\Pipeline.jpg">
-
+<img src="Images\Pipeline.jpg" >
 
 ## Power BI Report
 
 Below is the Power BI created from the Gold layer data
 
-<img width="287" alt="image" src="Images\Report Screenshot.jpg">
-
+<img src="Images\Report Screenshot.jpg" >
 
 
  # <p align="center" style="margin-top: 0px;">Thank you 😎
