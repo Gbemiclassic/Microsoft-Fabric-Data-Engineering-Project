@@ -13,16 +13,16 @@ Technologies Used: Python, PySpark, Fabric (Data Engineering, Data Factory, Powe
 
 ## Project Structure
 
-[1. Bronze Layer (Raw Data)]()
+[1. Bronze Layer (Raw Data)](1. Bronze Layer Processing.ipynb)
 Purpose: Ingest raw JSON data from an API into the Lakehouse in Microsoft Fabric.
 Method: A Notebook is used to pull the data and store it as a JSON file in the Lakehouse. This raw data acts as the foundation for further processing.
-[2. Silver Layer (Processed Data)]()
+[2. Silver Layer (Processed Data)](2. Silver Layer Processing.ipynb)
 Purpose: Clean, validate, and transform the raw JSON data into a structured table.
 Method: Another Notebook processes the raw JSON file from the Bronze Layer, converting it into a more usable format, and stores it in a table. This layer ensures the data is ready for analysis by removing errors, handling missing values, and performing initial transformations.
-[3. Gold Layer (Reporting-Ready Data)]()
+[3. Gold Layer (Reporting-Ready Data)](3. Gold Layer Processing.ipynb)
 Purpose: Further process the Silver Layer data into a format suitable for reporting and analysis.
 Method: A third Notebook processes the data into the final Gold Layer, which contains aggregated and curated data, optimized for Power BI reports.
-[4. Power BI Report]()
+[4. Power BI Report](Earthquake Events Report.pbix)
 Purpose: Visualize the final processed data for business analysis and decision-making.
 Method: A Power BI report is created using the Gold Layer data, providing interactive dashboards and insights to the business stakeholders.
 
