@@ -1,6 +1,6 @@
 # Microsoft-Fabric-Data-Engineering-Project - World Wide Earthquakes
 
-<img src="Images\End to End Process Diagram.png" alt="Image" width="500" height="520">
+<img src="Images\End to End Process Diagram.png" >
 
 
 ## Project Overview
